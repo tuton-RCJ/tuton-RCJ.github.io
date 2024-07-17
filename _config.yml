@@ -2,6 +2,10 @@ title: ツートンのブログ
 
 url: https://tuton-RCJ.github.io
 
+theme: jekyll-theme-slate
+google_analytics: G-XMXVWKGQ2X
+
+
 plugins:
   - jekyll-bookshop
   - cloudcannon-jekyll-bookshop
