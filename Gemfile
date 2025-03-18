@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+
 group :jekyll_plugins do
   gem 'jekyll-bookshop', '~> 3.1', '>= 3.1.2'
   gem "cloudcannon-jekyll-bookshop", "2.2.2"

@@ -1,0 +1,30 @@
+#countdown {
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f093fb, #f5576c);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#countdown span {
+  display: inline-block;
+  animation: textPulse 2s ease-in-out infinite;
+}
+
+@keyframes textPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
