@@ -8,3 +8,4 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-pagebreak", "~> 0.3"
 end
+gem "webrick", "~> 1.9"
